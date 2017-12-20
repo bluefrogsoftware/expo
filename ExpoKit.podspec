@@ -19,22 +19,22 @@ Pod::Spec.new do |s|
     ss.preserve_paths = "ios/Exponent/**/*.{h,m}"
     ss.exclude_files = "ios/Exponent/EXAppDelegate.*", "ios/Exponent/EXRootViewController.*", "ios/Exponent/Supporting/**", "ios/UnversionedModules/Payments/**", "ios/Exponent/Versioned/Modules/Api/GL/ARKit/**", "ios/Exponent/Versioned/Modules/Api/Components/FaceDetector/**"
 
-    ss.dependency 'Amplitude-iOS', '~> 3.8'
-    ss.dependency 'Analytics', '~> 3.5'
-    ss.dependency 'AppAuth', '~> 0.4'
+    # ss.dependency 'Amplitude-iOS', '~> 3.8'
+    # ss.dependency 'Analytics', '~> 3.5'
+    # ss.dependency 'AppAuth', '~> 0.4'
     ss.dependency 'CocoaLumberjack', '~> 3.2.1'
     ss.dependency 'Crashlytics', '~> 3.8'
-    ss.dependency 'FBAudienceNetwork', '~> 4.24'
-    ss.dependency 'FBSDKCoreKit', '~> 4.28'
-    ss.dependency 'FBSDKLoginKit', '~> 4.28'
-    ss.dependency 'FBSDKShareKit', '~> 4.28'
-    ss.dependency 'Fabric', '~> 1.6'
-    ss.dependency 'GoogleSignIn', '~> 3.0'
-    ss.dependency 'GoogleMaps', '~> 2.2.0'
+    # ss.dependency 'FBAudienceNetwork', '~> 4.24'
+    # ss.dependency 'FBSDKCoreKit', '~> 4.28'
+    # ss.dependency 'FBSDKLoginKit', '~> 4.28'
+    # ss.dependency 'FBSDKShareKit', '~> 4.28'
+    # ss.dependency 'Fabric', '~> 1.6'
+    # ss.dependency 'GoogleSignIn', '~> 3.0'
+    # ss.dependency 'GoogleMaps', '~> 2.2.0'
     ss.dependency 'lottie-ios', '~> 2.1.3'
     ss.dependency 'GPUImage', '~> 0.1.7'
-    ss.dependency 'Branch', '~> 0.14.12'
-    ss.dependency 'Google-Mobile-Ads-SDK', '~> 7.22.0'
+    # ss.dependency 'Branch', '~> 0.14.12'
+    # ss.dependency 'Google-Mobile-Ads-SDK', '~> 7.22.0'
   end
 
   s.subspec "CPP" do |ss|
